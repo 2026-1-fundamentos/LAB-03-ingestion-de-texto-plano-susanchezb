@@ -79,3 +79,4 @@ def pregunta_01():
         })
 
     return pd.DataFrame(data)
+
