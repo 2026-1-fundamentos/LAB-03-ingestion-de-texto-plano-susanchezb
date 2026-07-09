@@ -47,6 +47,6 @@ def pregunta_01():
             data.append({"cluster": cluster, "cantidad_de_palabras_clave": cantidad_palabras, "porcentaje_de_palabras_clave" : porcentaje_palabras, "principales_palabras_clave" : palabras_clave})
             palabras_clave = " "
 
-    df = pd.DataFrame(data, columns = ["cluster", "cantidad_de_palabras_clave", "porcentaje_de_palabras_clave", "principales_palabras_clave"])
+    df1 = pd.DataFrame(data, columns = ["cluster", "cantidad_de_palabras_clave", "porcentaje_de_palabras_clave", "principales_palabras_clave"])
 
-    return df
+    return df1
